@@ -76,15 +76,3 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 아쉽게도 아직 VisualStudio에서는 지원하는 플러그인이 없다...
 
 
-
-
-
-
-
-
-
-
-
-
-
-
