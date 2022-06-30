@@ -73,6 +73,6 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 
 ## TailwindCSS Intellisense
 아쉽게도 아직 VisualStudio에서는 지원하는 플러그인이 없다...<br />
-cshtml 작업을 vscode로 하면 Intellisense를 사용할 수 있다.
+하지만 cshtml 작업을 vscode로 하면 Intellisense를 사용할 수 있다.
 
 
