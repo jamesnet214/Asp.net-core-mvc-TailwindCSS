@@ -3,13 +3,16 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 <br />
 
 ## TailwindCSS란
-
+- 다양한 CSS라이브러리가 있지만 TailwindCSS가 좋은 이유는 간단하다.
+- Bootstrap과 마찬가지로 정의된 클래스명을 사용하면서도 내가 사용한 css만을 따로 빌드해서
+css파일로 만들어 주기 때문에 css파일 용량을 최적화 할 수 있기 때문이다.
+- 그리고 커스터마이징 또한 더 강력한 걸로 알고 있다. 이 부분 추후에 알아볼 계획이다.
 
 ## TailwindCSS 설치
-- TailwindCSS를 설치하고자 하는 Asp.net Core 프로젝트에서 PowerShell 열기
-- npm 명령어를 이용해 TailwindCSS를 설치하기<br />
+- TailwindCSS를 설치하고자 하는 Asp.net Core 프로젝트에서 PowerShell을 연다.
+- npm 명령어를 이용해 TailwindCSS를 설치한다.<br />
 `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
-- 설치가 완료되면 프로젝트에 project.json, tailwind.config.js, postcss.config.js 파일이 추가됨
+- 설치가 완료되면 프로젝트에 project.json, tailwind.config.js, postcss.config.js 파일이 추가된다.
 
 project.json
 ```json
@@ -60,9 +63,9 @@ project.json
 ## TailwindCSS HotReload 
 TailwindCSS 특성상 프로젝트 빌드시에만 css를 빌드하게 되면 편하게 작업할 수 없으므로<br />
 파일 수정시에도 바로바로 빌드될 수 있게 해줘야 한다.<br />
-PowerShell을 열고 프로젝트 경로로 이동후 아래 명령어를 입력하면 된다.
-물론 작업할때마다 아래 명령어를 실행시켜줘야 하는 번거로움은 있다.
-이 부분도 추후에 자동으로 할 수 있는지 알아봐야겠다.
+PowerShell을 열고 프로젝트 경로로 이동후 아래 명령어를 입력하면 된다.<br />
+물론 작업할때마다 아래 명령어를 실행시켜줘야 하는 번거로움은 있다.<br />
+이 부분도 추후에 자동으로 할 수 있는지 알아볼 계획이다.
 ```npm
 npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 ```
@@ -70,7 +73,7 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 
 ## TailwindCSS Intellicense
 
-
+...
 
 
 
