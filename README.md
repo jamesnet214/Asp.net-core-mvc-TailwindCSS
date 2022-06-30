@@ -2,6 +2,9 @@
 Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 <br />
 
+<img width="459" alt="image" src="https://user-images.githubusercontent.com/52397976/176645754-327f0c36-3fa5-4dd5-9064-3100e42b6099.png">
+
+
 ## TailwindCSS란
 - Bootstrap과 마찬가지로 정의된 클래스명을 사용하면서도 정의된 클래스명 + 임의값 설정이 가능하다.
 - 사용한 style만 빌드해서 css파일로 만들어 주기 때문에 css파일 용량을 최적화 할 수 있다.
