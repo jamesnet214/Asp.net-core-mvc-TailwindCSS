@@ -40,7 +40,7 @@ project.json
 ``` 
 
 - TailwindCSS가 설치가 끝났으면 프로젝트를 빌드할때마다 TailwindCSS가 자동으로 빌드될 수 있게 설정을<br />
-해줘야 하는데 project.json 파일과 프로젝트명.csproj 파일을 아래와 같이 수정해준다.
+해줘야 하는데 project.json 파일과 프로젝트명.csproj, wwwroot/css/site.css 파일을 아래와 같이 수정해준다.
 
 project.json
 ```json
@@ -55,6 +55,14 @@ project.json
     <Exec Command="npm run style:build"/>
 </Target>
 ```
+
+```css
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 이렇게 설정을 하면 프로젝트 빌드시마다 위 코드에 의해 wwwroot/css/output.css 파일이 생성된다.
 
 빌드된 css파일을 사용해야 하므로 _Layout.cshtml 파일에 css를 링크한다.
