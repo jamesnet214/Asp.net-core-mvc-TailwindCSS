@@ -6,7 +6,7 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 - 다양한 CSS라이브러리가 있지만 TailwindCSS가 좋은 이유는 간단하다.
 - Bootstrap과 마찬가지로 정의된 클래스명을 사용하면서도 내가 사용한 css만을 따로 빌드해서
 css파일로 만들어 주기 때문에 css파일 용량을 최적화 할 수 있기 때문이다.
-- 그리고 커스터마이징 또한 더 강력한 걸로 알고 있다. 이 부분 추후에 알아볼 계획이다.
+- 그리고 커스터마이징 또한 더 강력한 걸로 알고 있다. 이 부분은 추후에 알아볼 계획이다.
 
 ## TailwindCSS 설치
 - TailwindCSS를 설치하고자 하는 Asp.net Core 프로젝트에서 PowerShell을 연다.
@@ -71,9 +71,9 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 ```
 
 
-## TailwindCSS Intellicense
+## TailwindCSS Intellisense
 
-...
+아쉽게도 아직 VisualStudio에서는 지원하는 플러그인이 없다...
 
 
 
