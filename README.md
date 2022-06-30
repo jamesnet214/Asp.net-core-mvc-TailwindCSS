@@ -15,7 +15,7 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 - npm 명령어를 이용해 TailwindCSS를 설치한다.<br />
 `npm init -y`<br />
 `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`<br />
-`npx tailwindcss init. tailwind.config.js'<br />
+`npx tailwindcss init. tailwind.config.js`<br />
 - 설치가 완료되면 프로젝트에 project.json, tailwind.config.js, postcss.config.js 파일이 추가된다.
 
 project.json
