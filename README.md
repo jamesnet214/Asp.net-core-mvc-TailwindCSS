@@ -63,7 +63,6 @@ content: ['./Views/**/*.cshtml'],
 
 wwwroot/css/site.css
 ```css
-/*! @import */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
