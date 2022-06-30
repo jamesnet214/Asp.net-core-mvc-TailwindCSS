@@ -56,6 +56,7 @@ project.json
 </Target>
 ```
 
+wwwroot/css/site.css
 ```css
 /*! @import */
 @tailwind base;
