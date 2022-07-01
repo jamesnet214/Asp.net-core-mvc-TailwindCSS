@@ -6,7 +6,16 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 
 
 ## TailwindCSS란
-- Bootstrap과 마찬가지로 정의된 클래스명을 사용하면서도 정의된 클래스명 + 임의값 설정이 가능하다.
+- Bootstrap과 마찬가지로 정의된 클래스명을 사용하면서도 정의된 클래스명 + 임의값 설정이 가능하다.<br />
+```html
+// 정의된 클래스 사용 예시
+<div class="border-1 border-red-100">
+</div>
+
+// 정의된 클래스 변형 사용 예시
+<div class="border-[1px] border-[#333333]">
+</div>
+```
 - 사용한 style만 빌드해서 css파일로 만들어 주기 때문에 css파일 용량을 최적화 할 수 있다.
 - 커스터마이징 또한 더 강력한 걸로 알고 있다. 이 부분은 추후에 알아볼 계획이다.
 
@@ -90,6 +99,20 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 
 ## TailwindCSS Intellisense
 아쉽게도 아직 VisualStudio에서는 지원하는 플러그인이 없다...<br />
-하지만 cshtml 작업을 vscode로 하면 확장을 통해서 Intellisense를 사용할 수 있다.
+임시방편으로 cshtml 작업을 vscode로 하면 확장을 통해서 Intellisense를 사용할 수 있다.
+추후에 VisualStudio용 Intellisense를 만들수 있는지 알아볼 예정이다.
 
+
+## TailwindCSS 자주 쓰는 스타일 메모
+- container: 속성: width: 100% / 고정된 화면 크기 세트를 디자인하려는 경우에 유용<br />
+- mx-auto: 속성: margin-left: auto, margin-right-auto / 컨테이너 가로 중앙배치<br />
+- m-1: margin: 0.25rem; /* 4px */
+- m-[{값}px] : margin: {값}px;
+- p-[{값}px] : padding: {값}px;
+- bg-[{색상}] : background: {색상};
+- border-[{값}px] : border: {값}px;
+- border-[{색상}] : border-color: {색상};
+- basis-1/2 : flex-basis: 50%; 
+- basis-[{값}%] : flex-basis: {값}%; 
+- gap-[{값}px] : gap: {값}px;
 
