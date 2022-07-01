@@ -12,7 +12,7 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 <div class="border-1 border-red-100">
 </div>
 
-// 정의된 클래스 변형 사용 예시
+// 정의된 클래스 + 임의값 사용 예시
 <div class="border-[1px] border-[#333333]">
 </div>
 ```
