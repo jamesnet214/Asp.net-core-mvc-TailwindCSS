@@ -20,7 +20,6 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 Html내에서 거의 모든 작업이 이루어지므로 가독성 또한 엄청나게 좋아진다.
 - 사용한 스타일만 빌드해서 css파일로 만들어 주기 때문에 css파일 용량을 최적화 할 수 있다.
 
-
 ## TailwindCSS 설치
 - TailwindCSS를 설치하고자 하는 Asp.net Core 프로젝트에서 PowerShell을 연다.
 - npm 명령어를 이용해 TailwindCSS를 설치한다.<br />
