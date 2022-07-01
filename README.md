@@ -112,7 +112,7 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 - bg-[{색상}] : background: {색상};
 - border-[{값}px] : border: {값}px;
 - border-[{색상}] : border-color: {색상};
-- basis-1/2 : flex-basis: 50%; 
+- basis-1/2 : flex-basis: 50%; / flex사용시 차지할 비율 설정
 - basis-[{값}%] : flex-basis: {값}%; 
 - gap-[{값}px] : gap: {값}px;
 
