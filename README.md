@@ -106,13 +106,28 @@ npx tailwind build -i ./wwwroot/css/site.css -o ./wwwroot/css/output.css --watch
 ## TailwindCSS 자주 쓰는 스타일 메모
 - container: 속성: width: 100% / 고정된 화면 크기 세트를 디자인하려는 경우에 유용<br />
 - mx-auto: 속성: margin-left: auto, margin-right-auto / 컨테이너 가로 중앙배치<br />
+- basis-1/2 : flex-basis: 50%; / flex사용시 차지할 비율 설정
+- basis-[{값}%] : flex-basis: {값}%; 
+```html
+<div class="flex">
+  <div class="basis-1/4"></div> // 1/4 영역 차지
+  <div class="basis-2/4"></div> // 2/4 영역 차지 
+  <div class="basis-1/4"></div> // 1/4 영역 차지
+</div>
+
+<div class="flex">
+  <div class="basis-[23%]"></div>
+  <div class="basis-[47%]"></div>
+  <div class="basis-[30%]"></div>
+</div>
+```
+
+
 - m-1: margin: 0.25rem; /* 4px */
 - m-[{값}px] : margin: {값}px;
 - p-[{값}px] : padding: {값}px;
 - bg-[{색상}] : background: {색상};
 - border-[{값}px] : border: {값}px;
 - border-[{색상}] : border-color: {색상};
-- basis-1/2 : flex-basis: 50%; / flex사용시 차지할 비율 설정
-- basis-[{값}%] : flex-basis: {값}%; 
 - gap-[{값}px] : gap: {값}px;
 
