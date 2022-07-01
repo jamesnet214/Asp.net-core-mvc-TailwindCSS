@@ -27,7 +27,7 @@ Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
 `npx tailwind init -p`<br />
 - 설치가 완료되면 프로젝트에 project.json, tailwind.config.js, postcss.config.js 파일이 추가된다.
 
-project.json
+project.json 
 ```json
 {
   "name": "프로젝트명",
