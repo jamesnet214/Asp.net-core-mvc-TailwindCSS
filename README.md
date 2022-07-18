@@ -1,5 +1,5 @@
 # Asp.net Core MVC + TailwindCSS                 
-Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기
+Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기 
 <br />
 
 <img width="459" alt="image" src="https://user-images.githubusercontent.com/52397976/176645754-327f0c36-3fa5-4dd5-9064-3100e42b6099.png">
