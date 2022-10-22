@@ -1,4 +1,4 @@
-# Asp.net Core MVC + TailwindCSS                      
+# Asp.net Core MVC + TailwindCSS                       
 Asp.net Core MVC 프로젝트에 TailwindCSS 적용하기            
 <br /> 
 
